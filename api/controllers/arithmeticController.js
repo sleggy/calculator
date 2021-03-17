@@ -11,7 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    'add':      function(a,b) { return +a + +b },
+    'add':      function(a,b) { return +a + +b }, // Don't you dare change the code next time if you don't know JS
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
